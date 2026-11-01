@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>National Anthem | GMU Workshop</title>
+  <style>
+    :root { color-scheme: light; --navy: #14213d; --saffron: #f4a261; --green: #2a9d8f; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f4f7fb; color: #1f2937; }
+    header { padding: 2.5rem 1rem; text-align: center; color: white; background: linear-gradient(120deg, var(--navy), #284b63); border-bottom: 6px solid var(--saffron); }
+    header h1 { margin: 0 0 .5rem; font-size: clamp(1.8rem, 5vw, 2.6rem); }
+    header p { margin: .25rem 0; opacity: .9; }
+    main { max-width: 760px; margin: 2rem auto; padding: 0 1rem; }
+    .card { background: white; padding: 2rem; border-radius: 18px; box-shadow: 0 8px 28px rgba(20,33,61,.08); }
+    h2 { color: var(--navy); margin-top: 0; }
+    pre { white-space: pre-wrap; font: 1.05rem/1.9 Georgia, serif; text-align: center; margin: 1rem 0; }
+    .stripe { height: 5px; border-radius: 10px; background: linear-gradient(to right, var(--saffron) 0 33%, #fff 33% 66%, var(--green) 66%); }
+    footer { text-align: center; color: #64748b; padding: 1.5rem 1rem 2rem; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Indian National Anthem</h1>
+    <p>GMU · TC Class · Git &amp; GitHub Workshop</p>
+  </header>
+  <main>
+    <section class="card" aria-labelledby="anthem-title">
+      <div class="stripe" aria-hidden="true"></div>
+      <h2 id="anthem-title">Jana Gana Mana</h2>
+      <pre>{{ anthem }}</pre>
+      <div class="stripe" aria-hidden="true"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Workshop project by Yashaswini N.S. · USN U24E01CC081</p>
+    <p>Built with Python, Flask, HTML, CSS, Git and GitHub.</p>
+  </footer>
+</body>
+</html>
